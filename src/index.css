@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  text-align: center;
+}
+
+h1, h3 {
+  margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listItem {
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 50%;
+}
+
+p {
+  width: 50%;
+  margin: 30px auto;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.contactInfo {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  margin: 0px auto;
+  text-align: start;
+}
